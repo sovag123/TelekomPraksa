@@ -40,7 +40,7 @@ class ZahtjevDetalji : AppCompatActivity() {
 
 
 
-                var url = "https://tim7.ictcortex.me/api/izbrisi-transakciju"
+                var url = "https://tim7.ictcortex.me/api/izbrisi-transakciju?id="+zahtjev.id+"&type="+zahtjev.type
 
 
 
