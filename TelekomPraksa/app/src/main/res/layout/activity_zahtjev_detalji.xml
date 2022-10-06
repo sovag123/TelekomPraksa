@@ -4,23 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ZahtjevDetalji"
     tools:ignore="MissingDefaultResource">
 
     <TextView
-        android:id="@+id/ponistR"
+        android:id="@+id/obican11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginBottom="16dp"
-        android:fontFamily="@font/roboto"
         android:text="Poništi rezervaciju"
         android:textColor="#3392EA"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialDivider2"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -52,8 +50,8 @@
         android:id="@+id/obican"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
         android:layout_marginBottom="436dp"
-        android:fontFamily="@font/roboto"
         android:text="by"
         android:textColor="#99000000"
         android:textSize="10sp"
@@ -61,15 +59,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/naslovZah"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toBottomOf="@+id/naslovPZa" />
 
     <TextView
         android:id="@+id/obican3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="328dp"
-        android:fontFamily="@font/roboto"
         android:text="Period rezervacije"
         android:textColor="#99000000"
         android:textSize="10sp"
@@ -77,130 +74,125 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/naslovZah"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toBottomOf="@+id/naslovPZa2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/obican7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="142dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="264dp"
-        android:fontFamily="@font/roboto"
         android:text="Osoba koja je izdala knjigu"
         android:textColor="#99000000"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialDivider"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toBottomOf="@+id/datumZO"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/obican9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:fontFamily="@font/roboto"
+        android:layout_marginTop="16dp"
         android:text="ID transakcije"
         android:textColor="#99000000"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialDivider"
-        app:layout_constraintVertical_bias="0.039" />
+        app:layout_constraintTop_toBottomOf="@+id/izdavacZ"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/datumZO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="296dp"
-        android:fontFamily="@font/roboto"
         android:text="Apr 29 - "
+        android:textColor="#DE000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obican3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/izdavacZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="232dp"
+        android:text="Valentina Kasćelan"
         android:textColor="#DE000000"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/naslovZah"
-        app:layout_constraintVertical_bias="0.044" />
-
-    <TextView
-        android:id="@+id/izdavacZ"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="232dp"
-        android:fontFamily="@font/roboto"
-        android:text="Valentina Kasćelan"
-        android:textColor="#DE000000"
-        android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.055"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/naslovZah"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toBottomOf="@+id/obican7"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/brojZ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="164dp"
-        android:fontFamily="@font/roboto"
         android:text="6498494444964984"
         android:textColor="#DE000000"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/naslovZah"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toBottomOf="@+id/obican9"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/datumZD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="300dp"
-        android:fontFamily="@font/roboto"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="296dp"
         android:text="Sep 29, 2018"
         android:textColor="#DE000000"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/naslovZah"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toBottomOf="@+id/obican3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/obican2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:layout_marginBottom="424dp"
-        android:fontFamily="@font/roboto"
         android:text=" Pero Catić"
         android:textColor="#3392EA"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/slikaZahPrav"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintTop_toBottomOf="@+id/naslovPZa"
+        app:layout_constraintVertical_bias="0.285" />
 
     <TextView
         android:id="@+id/naslovPZa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="456dp"
-        android:fontFamily="@font/roboto"
         android:text="TextView"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -208,43 +200,42 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/slikaZah"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintTop_toBottomOf="@+id/slikaZahPrav" />
 
     <TextView
         android:id="@+id/naslovPZa2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="340dp"
-        android:fontFamily="@font/roboto"
         android:text="Detalji Zahtjeva"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialDivider"
-        app:layout_constraintVertical_bias="0.48" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.button.MaterialButton
 
         android:id="@+id/dugmePZah"
         style="@style/Widget.Material3.Button.OutlinedButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
+        android:layout_width="98dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="15dp"
         android:layout_marginBottom="428dp"
         android:text="Rezervacija"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="#FF9900"
+        android:textSize="14dp"
         app:cornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/slikaZah"
-        app:layout_constraintVertical_bias="0.058"
+        app:layout_constraintTop_toBottomOf="@+id/slikaZahPrav"
         app:strokeColor="#FF9900" />
 
     <ImageView
@@ -264,11 +255,12 @@
         android:layout_width="11dp"
         android:layout_height="14dp"
         android:layout_marginTop="11dp"
+        android:layout_marginEnd="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintEnd_toStartOf="@+id/obican11"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialDivider2"
-        app:layout_constraintVertical_bias="0.531"
+        app:layout_constraintVertical_bias="0.347"
         app:srcCompat="?android:attr/textCheckMark" />
 </androidx.constraintlayout.widget.ConstraintLayout>
