@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_top">
+        <item
+            android:id="@+id/naw_zahtjevi"
+            android:icon="@drawable/ic_telekom_zahtjevi"
+        android:title="@string/naw_zahjevi" />
+        <item
+            android:id="@+id/naw_lista_zelja"
+            android:icon="@drawable/ic_telekom_lista_zelja"
+            android:title="@string/naw_lista_zelja" />
+        <item
+            android:id="@+id/naw_aktivnosti"
+            android:icon="@drawable/ic_telekom_aktivnosti"
+            android:title="@string/naw_aktivnosti" />
+        <item
+            android:id="@+id/naw_knjige"
+            android:icon="@drawable/ic_telekom_knjige"
+            android:title="@string/naw_knjige" />
+    </group>
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/naw_bottom">
+        <item
+            android:id="@+id/naw_settings"
+            android:icon="@drawable/ic_telekom_settings"
+            android:title="@string/naw_settings" />
+    </group>
+</menu>

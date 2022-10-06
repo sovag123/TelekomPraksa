@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    tools:context=".sve_knjige">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="409dp"
+            android:layout_height="680dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="407dp"
+                    android:layout_height="46dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Filters"
+                            android:textColor="#3392EA"
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.873"
+                            app:layout_constraintStart_toEndOf="@+id/textView5"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto"
+                            android:paddingStart="30dp"
+                            android:text="Ukupno 7651 knjiga"
+                            android:textColor="#000000"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingStart="30dp"
+                    android:text="Popularne knjige"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:id="@+id/materialDivider3"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/moji_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="607dp"
+                    android:paddingTop="10dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingStart="30dp"
+                    android:paddingTop="10dp"
+                    android:text="Pogledaj još"
+                    android:textColor="#3392EA"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:id="@+id/materialDivider4"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingStart="30dp"
+                    android:paddingTop="10dp"
+                    android:text="Kategorije"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/moji_list1"
+                    android:layout_width="match_parent"
+                    android:layout_height="607dp"
+                    android:paddingTop="10dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingStart="30dp"
+                    android:paddingTop="10dp"
+                    android:text="Pogledaj još"
+                    android:textColor="#3392EA"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:id="@+id/materialDivider5"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingStart="30dp"
+                    android:paddingTop="10dp"
+                    android:text="Žanrovi"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/moji_list2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:paddingStart="30dp"
+                    android:paddingTop="10dp"
+                    android:text="Pogledaj još"
+                    android:textColor="#3392EA"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.MaterialToolbar
+
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ToolbarTheme"
+                app:menu="@menu/top_app_bar"
+                app:navigationIcon="@drawable/ic_baseline_menu_24"
+                app:subtitleTextColor="#FFFFFF"
+                app:title="Moji Zahtjevi"
+                app:titleTextColor="#FFFFFF"
+                app:titleTextAppearance="@style/TextAppearance.AppCompat.Title"
+                />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        app:headerLayout="@layout/nav_header"
+        android:id="@+id/nav_viewv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/nav_menu"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

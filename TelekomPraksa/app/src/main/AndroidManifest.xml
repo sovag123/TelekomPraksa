@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TelekomPraksa"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AktivnostiPrikaz"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ListaZelja"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".sve_knjige"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".settings"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".edit_user"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".odAutora"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AutorPrikaz"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ZahtjevDetalji"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NalogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KnjigeNaRaspolaganaju"
+            android:exported="false" />
+        <activity
+            android:name=".mojipravizahtjevi"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".mojizahtjeviv2"
+            android:exported="false"
+            android:label="@string/title_activity_mojizahtjeviv2"
+            android:theme="@style/Theme.TelekomPraksa.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TemporariActivity"
+            android:exported="false"
+            android:label="@string/title_activity_temporari"
+            android:theme="@style/Theme.TelekomPraksa.NoActionBar" />
+        <activity
+            android:name=".temporari"
+            android:exported="false"
+            android:label="@string/title_activity_temporari"
+            android:theme="@style/Theme.TelekomPraksa.NoActionBar" />
+        <activity
+            android:name=".NawDrawer"
+            android:exported="true"
+            android:label="@string/title_activity_naw_drawer"
+            android:theme="@style/Theme.TelekomPraksa.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

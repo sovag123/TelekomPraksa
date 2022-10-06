@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sasa.adzic/Desktop/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/activity_naw_drawer.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/sasa.adzic/Desktop/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/app_bar_naw_drawer.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/sasa.adzic/Desktop/TelekomPraksa/TelekomPraksa/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/activity_naw_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/app_bar_naw_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/content_naw_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_gallery.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_home.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_knjige.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_lista_zelja.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_nalog_edit.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_nalog_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_setting_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_slideshow.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/fragment_zahtjevi.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/lista_zelja.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/login_forgot_layout.xml" value="0.25" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/login_forgot_sent_password_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/login_forgot_sent_username_layout.xml" value="0.25" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/login_main_layout.xml" value="0.12" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/moji_zahtjevi.xml" value="0.264" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/nalog_main_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/nav_header.xml" value="0.1609375" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/nav_header_naw_drawer.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/prikaz_informacija_zahtjev_nije_vraceno.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/prikaz_informacija_zahtjev_rezervacija.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/prikaz_knjige_na_raspolaganju.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/prikaz_pisca.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/layout/temp.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/menu/nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/menu/naw_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/menu/temporari.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/vasil/Desktop/telekom/TelekomPraksa/TelekomPraksa/app/src/main/res/menu/top_app_bar.xml" value="0.24947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

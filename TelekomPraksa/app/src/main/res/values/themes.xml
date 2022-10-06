@@ -1,0 +1,102 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TelekomPraksa" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/telekom_blue</item>
+        <item name="colorPrimaryVariant">@color/telekom_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.TelekomPraksa.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TelekomPraksa.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TelekomPraksa.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+
+        <!-- The action bar title font -->
+        <item name="android:fontFamily">sans-serif-light</item>
+
+        <!-- Customizes the color of the action bar title-->
+        <item name="android:textColor">#FF0000</item>
+
+        <!-- Customizes the size of the action bar title-->
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="BracaTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">@font/nabla</item>
+    </style>
+    <style name="Theme.OnlineLibrary" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/light_blue</item>
+        <item name="colorOnSecondary">@color/almost_black</item>
+        <!-- Status bar color. -->
+
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.OnlineLibrary1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/light_blue</item>
+        <item name="colorOnSecondary">@color/almost_black</item>
+        <!-- Status bar color. -->
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="TextHeadline6">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">23sp</item>
+        <item name="android:textColor">@color/almost_black</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="TextBody1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">19sp</item>
+        <item name="android:textColor">@color/almost_black</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <style name="TextLink">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">19sp</item>
+        <item name="android:textColor">@color/light_blue</item>
+    </style>
+
+    <style name="TextInputLayout">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">16dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">16dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">16dp</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group  android:id="@+id/grp1"
+        >
+        <item
+            android:id="@+id/firstItem"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/ic_tl_odbijeno"
+            android:title="First Item" />
+        <item
+            android:id="@+id/secondItem"
+            android:checkable="true"
+            android:icon="@drawable/ic_tl_odbijeno"
+            android:title="Second Item" />
+        <item
+            android:id="@+id/thirdItem"
+            android:checkable="true"
+            android:icon="@drawable/ic_tl_odbijeno"
+            android:title="Third Item" />
+        <item
+            android:id="@+id/forth"
+            android:checkable="true"
+            android:icon="@drawable/ic_tl_odbijeno"
+            android:title="forth Item" />
+        <item
+            android:id="@+id/fifthy"
+            android:checkable="true"
+            android:icon="@drawable/ic_tl_odbijeno"
+            android:title="fifth Item" />
+    </group>
+    <group android:id="@+id/settings">
+    <item
+        android:id="@+id/fifth"
+        android:title="Third Item"
+        android:icon="@drawable/ic_tl_odbijeno"/></group>
+    <group android:id="@+id/novoo"
+        android:orderInCategory="3"
+        >
+        <item
+            android:id="@+id/sixth"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_tl_odbijeno"
+            android:title="Third Item" />
+        <item
+            android:id="@+id/seventh"
+            android:checkable="true"
+            android:icon="@drawable/ic_tl_odbijeno"
+            android:title="Third Item" />
+    </group>
+
+</menu>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AutorPrikaz">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/dropbutton2"
+                android:layout_width="25dp"
+                android:layout_height="17dp"
+
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/ic_tl_dropbtn"
+                app:layout_constraintBottom_toTopOf="@+id/divider5"
+                app:layout_constraintEnd_toStartOf="@+id/procitajvise2"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/oPiscu"
+                tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/odAutora"
+                android:layout_width="400dp"
+                android:layout_height="184dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider5"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="248dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/oPiscu"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintBottom_toTopOf="@+id/odAutora"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pisacPonovo" />
+
+            <ImageView
+                android:id="@+id/slikapisca"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:scaleType="centerCrop"
+                android:src="@color/cardview_light_background"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/imePisca"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:text="Pero Catić"
+                android:textColor="#DE000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/divider4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.944" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintBottom_toTopOf="@+id/oPiscu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.828" />
+
+            <TextView
+                android:id="@+id/pisacPonovo"
+                android:layout_width="107dp"
+                android:layout_height="18dp"
+                android:text="Pero Catić"
+                android:textColor="#DE000000"
+                app:layout_constraintBottom_toTopOf="@+id/odAutora"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.063"
+                app:layout_constraintStart_toEndOf="@+id/knjigeautora"
+                app:layout_constraintTop_toBottomOf="@+id/divider5"
+                app:layout_constraintVertical_bias="0.369" />
+
+            <ImageButton
+                android:id="@+id/edit"
+                android:layout_width="31dp"
+                android:layout_height="29dp"
+                android:background="#00000000"
+                app:layout_constraintBottom_toBottomOf="@+id/slikapisca"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.042"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.077"
+                app:srcCompat="@drawable/ic_tl_backbtn" />
+
+            <TextView
+                android:id="@+id/procitajvise2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp"
+                android:text="Pročitaj više"
+
+                android:textColor="#3392EA"
+                android:textSize="14dp"
+                app:layout_constraintBottom_toTopOf="@+id/divider5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.152"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/oPiscu"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/oautoru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="O autoru..."
+                android:textColor="#DE000000"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/oPiscu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider4"
+                app:layout_constraintVertical_bias="0.809" />
+
+            <TextView
+                android:id="@+id/knjigeautora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="29dp"
+                android:text="Knjige od autora"
+                app:layout_constraintBottom_toTopOf="@+id/odAutora"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider5"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/oPiscu"
+                android:layout_width="382dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="304dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl lorem feugiat sed ut faucibus molestie mattis non. Facilisis libero aliquam sapien, sit penatibus egestas. Id neque quam diam eu morbi. Sed purus congue rhoncus feugiat dui nisl donec sapien ultrices."
+                android:textColor="#99000000"
+                android:textSize="14dp"
+
+                app:flow_wrapMode="chain"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slikapisca"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
